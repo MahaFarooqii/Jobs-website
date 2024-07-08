@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# Description
+This project is a full stack application that includes a job posting feature with automated job description summarization. It uses a React frontend, a Node.js backend, and a Python server for text summarization.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Installation and Setup
+Step 1: Install Dependencies
+First, navigate to the summary folder in your project directory and install the necessary dependencies using npm:
 
-## Available Scripts
+npm install
 
-In the project directory, you can run:
+Step 2: Start the Python Server
+After installing the dependencies, navigate to the backend folder where the Python server is located and start the server:
 
-### `npm start`
+cd src/backend
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+python app.py
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Step 3: Start the Node.js Backend Server
+In the same backend directory, start the Node.js backend server using nodemon:
 
-### `npm test`
+nodemon index.js
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Step 4: Start the React Frontend
+Finally, navigate back to the summary folder and start the React frontend:
 
-### `npm run build`
+npm start
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Project Structure
+summary/src/backend: Contains the backend code for the project.
+app.py: Python server script for text summarization.
+index.js: Node.js server script for handling job postings and interacting with the Python server.
+summary/src/frontend: Contains the React frontend code for the project.
+Usage
+After completing the setup steps above, the application will be running locally. You can access it through your web browser at http://localhost:3000.
