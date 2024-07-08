@@ -26,8 +26,13 @@ npm start
 
 # Project Structure
 summary/src/backend: Contains the backend code for the project.
+
 app.py: Python server script for text summarization.
+
 index.js: Node.js server script for handling job postings and interacting with the Python server.
+
 summary/src/frontend: Contains the React frontend code for the project.
-Usage
+
+# Usage
+
 After completing the setup steps above, the application will be running locally. You can access it through your web browser at http://localhost:3000.
