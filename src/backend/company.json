@@ -1,0 +1,29 @@
+[
+    {
+      "companyName": "Tech Solutions Inc.",
+      "email": "hr@techsolutions.com",
+      "password": "password123",
+      "jobsPosted": [
+        {
+          "id": "1",
+          "title": "Software Engineer"
+        }
+      ]
+    },
+    {
+      "companyName": "Web Development Co.",
+      "email": "hr@webdevco.com",
+      "password": "webdev456",
+      "jobsPosted": [
+        {
+          "id": "2",
+          "title": "Frontend Developer"
+        },
+        {
+            "id":"3",
+            "title":"AI Engineer"
+        }
+      ]
+    }
+  ]
+  

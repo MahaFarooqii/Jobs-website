@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Software Engineer",
+    "salary": "60k",
+    "company": "Tech Solutions Inc.",
+    "description": "We are looking for a Software Engineer with a passion for developing innovative programs. You will work alongside other developers and designers to create, maintain, and improve our applications. Responsibilities include writing clean, scalable code, designing and implementing software solutions, and participating in code reviews.",
+    "summary": "Seeking a Software Engineer to develop, maintain, and improve applications with a focus on clean, scalable code."
+  },
+  {
+    "id": 4,
+    "title": "Software Engineer",
+    "salary": "75k",
+    "company": "Stella",
+    "description": "We are looking for a Software Engineer with a passion for developing innovative programs. You will work alongside other developers and designers to create, maintain, and improve our applications. Responsibilities include writing clean, scalable code, designing and implementing software solutions, and participating in code reviews.",
+    "summary": "Seeking a Software Engineer to develop, maintain, and improve applications with a focus on clean, scalable code."
+  },
+  {
+    "id": 2,
+    "title": "Frontend Developer",
+    "salary": "40k",
+    "company": "Web Development Co.",
+    "description": "As a Frontend Developer, you will be responsible for implementing visual elements that users see and interact with in a web application. You will collaborate with backend developers and UI/UX designers to ensure technical feasibility of UI/UX designs and optimize applications for maximum speed.",
+    "summary": "Looking for a Frontend Developer to implement and optimize visual elements of web applications, ensuring technical feasibility and maximum speed."
+  },
+  {
+    "id": 3,
+    "title": "AI Engineer",
+    "salary": "60k",
+    "company": "Web Development Co.",
+    "description": "Seeking an AI Engineer to develop, maintain, and improve applications with a focus on clean, scalable code.",
+    "summary": "Join our team as an AI Engineer to work on cutting-edge AI technologies and solutions."
+  },
+  {
+    "id": 5,
+    "title": "UX/UI Designer",
+    "company": "Jin Technologies",
+    "description": "A user experience (UX) engineer that can build and design digital products like websites and apps while using UX principles. Will have to deal with the front end of these productsâ€”the user-facing parts that people interact with, like the buttons, layouts, and flow of the interfaces.",
+    "salary": "30k",
+    "summary": "A user experience (UX) engineer that can build and design digital products like websites and apps while using UX principles."
+  },
+  {
+    "title": "Mobile Developer",
+    "company": "Mentorness",
+    "description": "We are seeking a talented Mobile Developer to join our dynamic team. As a Mobile Developer, you will be responsible for the development and maintenance of high-quality mobile applications for both Android and iOS platforms. You will collaborate closely with cross-functional teams to design, develop, test, and deploy mobile applications that meet our customers' needs and enhance user experience.",
+    "salary": "80k",
+    "summary": "You will collaborate closely with cross-functional teams to design, develop, test, and deploy mobile applications that meet our customers' needs and enhance user experience.",
+    "id": 6
+  },
+  {
+    "title": ".net developer",
+    "company": "Xgrid",
+    "description": "A .NET Developer is responsible for designing, coding, testing, and maintaining software applications using the .NET framework. They typically work with C#, ASP.NET, and other related technologies to develop scalable and efficient solutions. Responsibilities often include:\n\nSoftware Development: Writing clean, scalable code using .NET programming languages.\nApplication Design: Designing and implementing software applications according to specifications.\nTesting and Debugging: Testing and debugging applications to ensure optimal performance and reliability.\nMaintenance and Support: Maintaining and upgrading existing systems as needed.\nDocumentation: Writing technical documentation for reference and reporting.\nCollaboration: Working closely with other developers, UX/UI designers, and stakeholders.\nKey skills include proficiency in C#, ASP.NET, MVC, SQL Server, and familiarity with front-end technologies like HTML, CSS, and JavaScript.",
+    "salary": "60k",
+    "summary": "Key skills include proficiency in C#, ASP.NET, MVC, SQL Server, and familiarity with front-end technologies like HTML, CSS, and JavaScript. Testing and Debugging: Testing and debugging applications to ensure optimal performance and reliability.\n Writing clean, scalable code using .NET programming languages.\n Designing and implementing software applications according to specifications.\n Developer is responsible for designing, coding, testing, and maintaining software applications using the .NET framework. They typically work with C#, ASP.NET, and other related technologies to develop scalable and efficient solutions.",
+    "id": 7
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Jin Technologies",
+    "description": "We are seeking a talented and motivated Software Engineer to join our dynamic development team. As a Software Engineer, you will be responsible for designing, developing, testing, and maintaining high-quality software solutions that meet our clients' needs. You will collaborate with cross-functional teams to deliver innovative and scalable software applications.",
+    "salary": "80k",
+    "summary": "As a Software Engineer, you will be responsible for designing, developing, testing, and maintaining high-quality software solutions that meet our clients' needs.",
+    "id": 8
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Mentorness",
+    "description": "As a Frontend Developer, you will be responsible for implementing visual elements that users see and interact with in a web application. You will collaborate with backend developers and UI/UX designers to ensure technical feasibility of UI/UX designs and optimize applications for maximum speed.",
+    "salary": "30k",
+    "summary": "You will collaborate with backend developers and UI/UX designers to ensure technical feasibility of UI/UX designs and optimize applications for maximum speed.",
+    "id": 9
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Jin Technologies",
+    "description": "We are looking for a Software Engineer with a passion for developing innovative programs. You will work alongside other developers and designers to create, maintain, and improve our applications. Responsibilities include writing clean, scalable code, designing and implementing software solutions, and participating in code reviews.",
+    "salary": "65k",
+    "summary": "Responsibilities include writing clean, scalable code, designing and implementing software solutions, and participating in code reviews.",
+    "id": 10
+  }
+]

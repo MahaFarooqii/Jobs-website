@@ -1,24 +1,36 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Home from './frontend/home.js'
+import AddJob from './frontend/addjobs.js'
+import JobDetails from './frontend/jobDetails.js'
+import Login from './frontend/login.js'
+import Navbar from './frontend/navbar.js'
 
 function App() {
+  let RenderedComponent; 
+    switch(window.location.pathname){
+        case "/":
+        RenderedComponent = <Home/>;
+        break;
+        case "/addJob":
+        RenderedComponent = <AddJob/>;
+        break;
+        case "/getJobs":
+        RenderedComponent = <JobDetails/>;
+        break;
+        case "/login":
+        RenderedComponent = <Login/>;
+        break;
+       
+
+        default:
+        RenderedComponent = null; // Handle unknown routes 
+    }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+       <Navbar/>
+      {RenderedComponent}
+    </>
   );
 }
 

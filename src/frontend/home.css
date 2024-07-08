@@ -1,0 +1,289 @@
+
+.App {
+  text-align: center;
+  padding: 0; 
+}
+
+main {
+  padding: 20px;
+}
+
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0; 
+}
+
+.App-title {
+  flex: 1;
+  text-align: left;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Logo Styles */
+.App-logo {
+  max-width: 100%;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 10%;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  margin-left: 1%;
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-links li {
+  margin-left: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.navbar a:hover {
+  text-shadow: #f1f1f1;
+}
+
+body {
+  margin-top: 70px; 
+}
+
+.heading {
+  text-align: center;
+  margin: 3%;
+}
+
+.whatwedo {
+  text-align: center;
+  font-size: x-large;
+}
+
+.job-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.job-list li {
+  cursor: pointer;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.job-list li:hover {
+  background-color: #f0f0f0;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+select {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.jobDetails {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.job-table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.job-table th,
+.job-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.job-table th {
+  background-color: #000000;
+  color: white;
+}
+
+.job-table tbody tr:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+  background-color: #555;
+}
+
+.job-details-container {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0px 20px rgba(69, 68, 68, 0.1);
+  text-align: left;
+}
+
+.job-details-container h2 {
+  margin-bottom: 10px;
+}
+
+.job-details-container p {
+  margin-bottom: 8px;
+}
+
+.job-details-container button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.job-details-container button:hover {
+  background-color: #555;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .App-header, .navbar, .main {
+    flex-direction: column;
+  }
+
+  .App-title, .navbar-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .App-logo-container {
+    justify-content: center;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    display: none; 
+  }
+
+  .navbar-links li {
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar.active .navbar-links {
+    display: flex; 
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar-title {
+    margin-bottom: 10px;
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    width: 100%;
+    display: none; 
+  }
+
+  .navbar-links li {
+    margin: 5px 0;
+  }
+
+  .navbar.active .navbar-links {
+    display: flex; 
+  }
+}
+
+@media (max-width: 480px) {
+  .App-title, .navbar-title {
+    font-size: 1.2rem;
+  }
+
+  .navbar a {
+    font-size: 1rem;
+  }
+
+  .App-logo {
+    width: 100%;
+  }
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}

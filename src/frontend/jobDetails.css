@@ -1,0 +1,57 @@
+
+  .jobDetails {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 2rem;
+  }
+  
+  .job-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .job-list li {
+    cursor: pointer;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 1.3rem;
+  }
+  
+  .job-list li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 1.2rem;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  select {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .editDelete{
+    display: flex;
+    justify-content:center;
+  }
+  .deleteButton{
+    margin-left: 1%;
+  }
